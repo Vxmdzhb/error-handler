@@ -1,0 +1,48 @@
+{
+    "name": "astrx/error-handler",
+    "description": "Turns PHP errors and uncaught exceptions into diagnostics.",
+    "license": "LicenseRef-DoWhatever",
+    "type": "library",
+    "keywords": [
+        "astrx",
+        "no-javascript",
+        "server-rendered"
+    ],
+    "homepage": "https://github.com/Vxmdzhb/error-handler",
+    "require": {
+        "php": ">=8.4",
+        "astrx/i18n": "self.version",
+        "astrx/result": "self.version",
+        "astrx/support": "self.version"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "AstrX\\ErrorHandler\\": ""
+        }
+    },
+    "extra": {
+        "astrx": {
+            "resources": "resources"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Vxmdzhb/result"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/Vxmdzhb/support"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/Vxmdzhb/config"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/Vxmdzhb/i18n"
+        }
+    ]
+}
